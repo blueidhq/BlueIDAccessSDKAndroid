@@ -3,7 +3,7 @@
   "component": {
     "group": "net.blueid",
     "module": "access",
-    "version": "1.50",
+    "version": "1.51",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -32,13 +32,13 @@
       ],
       "files": [
         {
-          "name": "access-1.50.aar",
-          "url": "access-1.50.aar",
-          "size": 3441018,
-          "sha512": "97798c17de6e4035b62d03e1bf06534555668c6d946f096e21be3249077dec039de455fe9bc867fef5dad1e556a70bb5fbbc32ab2873fd31407ebecf21c4e7b1",
-          "sha256": "f270e7c709e4e6f60a47d987a1a6938ea4b9dba75714aaf7c33888bd2cd2f7df",
-          "sha1": "c2c6f87a29b4f2d8aa13ded566ff86c7fa2f345e",
-          "md5": "e49061c5b0884c7498fd4674b3b90c08"
+          "name": "access-1.51.aar",
+          "url": "access-1.51.aar",
+          "size": 2587406,
+          "sha512": "8ffdae8227f0d895a8b33a61a2ab2eb48ad41f6d3c6f7db79bae2e924b3ab74734a76845ce79563ae243f4da48749ea287ede3357a5f157c30fa254237682a96",
+          "sha256": "bcefcb9e0e478f3e4587bb8d9b2afa7d06135a43957200ad022d189b56682f82",
+          "sha1": "e0b2ffcf439806f87bac98747bf03e40b4c6c4ba",
+          "md5": "80490bb86c86929e53ae7aae13237b42"
         }
       ]
     },
@@ -293,13 +293,13 @@
       ],
       "files": [
         {
-          "name": "access-1.50.aar",
-          "url": "access-1.50.aar",
-          "size": 3441018,
-          "sha512": "97798c17de6e4035b62d03e1bf06534555668c6d946f096e21be3249077dec039de455fe9bc867fef5dad1e556a70bb5fbbc32ab2873fd31407ebecf21c4e7b1",
-          "sha256": "f270e7c709e4e6f60a47d987a1a6938ea4b9dba75714aaf7c33888bd2cd2f7df",
-          "sha1": "c2c6f87a29b4f2d8aa13ded566ff86c7fa2f345e",
-          "md5": "e49061c5b0884c7498fd4674b3b90c08"
+          "name": "access-1.51.aar",
+          "url": "access-1.51.aar",
+          "size": 2587406,
+          "sha512": "8ffdae8227f0d895a8b33a61a2ab2eb48ad41f6d3c6f7db79bae2e924b3ab74734a76845ce79563ae243f4da48749ea287ede3357a5f157c30fa254237682a96",
+          "sha256": "bcefcb9e0e478f3e4587bb8d9b2afa7d06135a43957200ad022d189b56682f82",
+          "sha1": "e0b2ffcf439806f87bac98747bf03e40b4c6c4ba",
+          "md5": "80490bb86c86929e53ae7aae13237b42"
         }
       ]
     },
@@ -315,8 +315,8 @@
       },
       "files": [
         {
-          "name": "access-1.50-sources.jar",
-          "url": "access-1.50-sources.jar",
+          "name": "access-1.51-sources.jar",
+          "url": "access-1.51-sources.jar",
           "size": 1198482,
           "sha512": "6221ad4a0392763149083ac0993435a717f107d4ec271a0ee02d4d83097e54188fa84be65e50d3e24ac745e0b9a578175bf7671fc48f2186c068064d3617548f",
           "sha256": "78da8ac5fc0850146f1502ee31e189db1699bb8017541caa75db5d3c5df37299",
