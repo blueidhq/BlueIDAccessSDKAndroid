@@ -3,7 +3,7 @@
   "component": {
     "group": "com.blue-id",
     "module": "access",
-    "version": "1.58",
+    "version": "1.59",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -32,13 +32,13 @@
       ],
       "files": [
         {
-          "name": "access-1.58.aar",
-          "url": "access-1.58.aar",
-          "size": 2670985,
-          "sha512": "6e41c3f60e03ca9e1b5125fad97b498ed34f48fc2dc61081377a75cd03d6fcf8cdfb5d680aea48e9612c8f93d76218dc1e499937cc100d9a23fae5893fc80647",
-          "sha256": "dfc238e386fb474f454c916928b9b0336c6a4052ecadf31011a7e6c849e78bd4",
-          "sha1": "c02d2c5bc08a2f85b3cf2a9dea6f134c7205301f",
-          "md5": "17d904e2172c7e329583dddb52e305be"
+          "name": "access-1.59.aar",
+          "url": "access-1.59.aar",
+          "size": 2669749,
+          "sha512": "79ae83bdeafcbddbe1840aab0b98217d0ee4198c86d6b488c67602b51fd815842ad8c90d84c3921e5a0f3b3060f8988f62dc40e2513389236bfc5c7bed504f3e",
+          "sha256": "b5b7abd617cb59f51a3ce268438d5895096f10f124d60600e8e9c7543f0802c4",
+          "sha1": "ec06b480eb42be5b1ede718423d53a53cec0b9ff",
+          "md5": "4357c5399b1749e741b71795d747a8d9"
         }
       ]
     },
@@ -293,13 +293,13 @@
       ],
       "files": [
         {
-          "name": "access-1.58.aar",
-          "url": "access-1.58.aar",
-          "size": 2670985,
-          "sha512": "6e41c3f60e03ca9e1b5125fad97b498ed34f48fc2dc61081377a75cd03d6fcf8cdfb5d680aea48e9612c8f93d76218dc1e499937cc100d9a23fae5893fc80647",
-          "sha256": "dfc238e386fb474f454c916928b9b0336c6a4052ecadf31011a7e6c849e78bd4",
-          "sha1": "c02d2c5bc08a2f85b3cf2a9dea6f134c7205301f",
-          "md5": "17d904e2172c7e329583dddb52e305be"
+          "name": "access-1.59.aar",
+          "url": "access-1.59.aar",
+          "size": 2669749,
+          "sha512": "79ae83bdeafcbddbe1840aab0b98217d0ee4198c86d6b488c67602b51fd815842ad8c90d84c3921e5a0f3b3060f8988f62dc40e2513389236bfc5c7bed504f3e",
+          "sha256": "b5b7abd617cb59f51a3ce268438d5895096f10f124d60600e8e9c7543f0802c4",
+          "sha1": "ec06b480eb42be5b1ede718423d53a53cec0b9ff",
+          "md5": "4357c5399b1749e741b71795d747a8d9"
         }
       ]
     },
@@ -312,18 +312,7 @@
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime",
         "org.jetbrains.kotlin.platform.type": "androidJvm"
-      },
-      "files": [
-        {
-          "name": "access-1.58-sources.jar",
-          "url": "access-1.58-sources.jar",
-          "size": 1200080,
-          "sha512": "1c9a209e4bd7666ab52ed1f0fbb7f6076249d429d849f49d48f27e52c6e75fd817c3d7703a3802e7fb5b5affa2d76d4e0f4c08b51237d03a5e3a47d5100efa42",
-          "sha256": "afd227e7f263d978a789cf21ca31827264ce414b3fe4c75194a540e3fe268a02",
-          "sha1": "ba874bbde11d43a5e6e27a42ae05e4863d48ccc0",
-          "md5": "c8976f9512091f7cdccde5885fc200b5"
-        }
-      ]
+      }
     }
   ]
 }
