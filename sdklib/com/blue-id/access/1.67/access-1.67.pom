@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.blue-id</groupId>
   <artifactId>access</artifactId>
-  <version>1.66</version>
+  <version>1.67</version>
   <packaging>aar</packaging>
   <dependencyManagement>
     <dependencies>
