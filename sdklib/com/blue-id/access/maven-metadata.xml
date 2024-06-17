@@ -3,11 +3,11 @@
   <groupId>com.blue-id</groupId>
   <artifactId>access</artifactId>
   <versioning>
-    <latest>1.68</latest>
-    <release>1.68</release>
+    <latest>1.69</latest>
+    <release>1.69</release>
     <versions>
-      <version>1.68</version>
+      <version>1.69</version>
     </versions>
-    <lastUpdated>20240613220808</lastUpdated>
+    <lastUpdated>20240617153258</lastUpdated>
   </versioning>
 </metadata>
