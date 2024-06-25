@@ -3,7 +3,7 @@
   "component": {
     "group": "com.blue-id",
     "module": "access",
-    "version": "1.72",
+    "version": "1.74",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -32,13 +32,13 @@
       ],
       "files": [
         {
-          "name": "access-1.72.aar",
-          "url": "access-1.72.aar",
-          "size": 2669882,
-          "sha512": "6ff82d62e91cc0fc589a76a29d6e11ff8cd3bbd935b2b754130c9294ecabc5628fb1e600dd5edd4a94b28ae01582a119aba1d1c174dbb52ffde2ba7cce4321e4",
-          "sha256": "90c0eea60880b81d85f31b8adb07e19353850c6075b07afb67bbc8f3cddc74e3",
-          "sha1": "c79568f07a76244179164d775c6a8010b0210520",
-          "md5": "2d33cc16b204fac03079226538d35828"
+          "name": "access-1.74.aar",
+          "url": "access-1.74.aar",
+          "size": 2669878,
+          "sha512": "78832f38c5fff2ad0ab12684346708be38bfe7cf7b576e28f928baf010c32221506b33b98a0f618ac8d97a30163116da471ff3eff628c7f0f1e328d110e7fe75",
+          "sha256": "026eb45e080f92188e26e32323fbfb37ae03d24df02b04598fbb193b499f953e",
+          "sha1": "433a1a612c9be0102c32dcbfc10af0b18da901b3",
+          "md5": "29d00e294a2cd7bfcdb8838577a9da75"
         }
       ]
     },
@@ -182,14 +182,14 @@
           "group": "com.google.protobuf",
           "module": "protobuf-java",
           "version": {
-            "requires": "4.26.1"
+            "requires": "4.27.1"
           }
         },
         {
           "group": "com.google.protobuf",
           "module": "protobuf-java-util",
           "version": {
-            "requires": "4.26.1"
+            "requires": "4.27.1"
           }
         },
         {
@@ -293,13 +293,13 @@
       ],
       "files": [
         {
-          "name": "access-1.72.aar",
-          "url": "access-1.72.aar",
-          "size": 2669882,
-          "sha512": "6ff82d62e91cc0fc589a76a29d6e11ff8cd3bbd935b2b754130c9294ecabc5628fb1e600dd5edd4a94b28ae01582a119aba1d1c174dbb52ffde2ba7cce4321e4",
-          "sha256": "90c0eea60880b81d85f31b8adb07e19353850c6075b07afb67bbc8f3cddc74e3",
-          "sha1": "c79568f07a76244179164d775c6a8010b0210520",
-          "md5": "2d33cc16b204fac03079226538d35828"
+          "name": "access-1.74.aar",
+          "url": "access-1.74.aar",
+          "size": 2669878,
+          "sha512": "78832f38c5fff2ad0ab12684346708be38bfe7cf7b576e28f928baf010c32221506b33b98a0f618ac8d97a30163116da471ff3eff628c7f0f1e328d110e7fe75",
+          "sha256": "026eb45e080f92188e26e32323fbfb37ae03d24df02b04598fbb193b499f953e",
+          "sha1": "433a1a612c9be0102c32dcbfc10af0b18da901b3",
+          "md5": "29d00e294a2cd7bfcdb8838577a9da75"
         }
       ]
     },
