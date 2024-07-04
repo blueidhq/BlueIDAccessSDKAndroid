@@ -3,7 +3,7 @@
   "component": {
     "group": "com.blue-id",
     "module": "access",
-    "version": "1.74",
+    "version": "1.75",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -32,13 +32,13 @@
       ],
       "files": [
         {
-          "name": "access-1.74.aar",
-          "url": "access-1.74.aar",
-          "size": 2669878,
-          "sha512": "78832f38c5fff2ad0ab12684346708be38bfe7cf7b576e28f928baf010c32221506b33b98a0f618ac8d97a30163116da471ff3eff628c7f0f1e328d110e7fe75",
-          "sha256": "026eb45e080f92188e26e32323fbfb37ae03d24df02b04598fbb193b499f953e",
-          "sha1": "433a1a612c9be0102c32dcbfc10af0b18da901b3",
-          "md5": "29d00e294a2cd7bfcdb8838577a9da75"
+          "name": "access-1.75.aar",
+          "url": "access-1.75.aar",
+          "size": 2771176,
+          "sha512": "c2da70e5a38641463b979f9717b6d5a39d6fcbc82a403768ce84f99a8e3636367665fc75acfa97cad93ab1d6200e340fedf984c030beda143b1652c9754cc91f",
+          "sha256": "4cbfdb0546a24cb8b9e414b055f6516b0ee87f505b44478719073667c7aae4bb",
+          "sha1": "2ec64c8b934aee0e79f430ae4444f9bc3696b658",
+          "md5": "1e3963174f183ef4b4bb1c239eb68f4c"
         }
       ]
     },
@@ -242,6 +242,13 @@
           }
         },
         {
+          "group": "io.sentry",
+          "module": "sentry-android",
+          "version": {
+            "requires": "7.10.0"
+          }
+        },
+        {
           "group": "androidx.work",
           "module": "work-runtime",
           "version": {
@@ -293,13 +300,13 @@
       ],
       "files": [
         {
-          "name": "access-1.74.aar",
-          "url": "access-1.74.aar",
-          "size": 2669878,
-          "sha512": "78832f38c5fff2ad0ab12684346708be38bfe7cf7b576e28f928baf010c32221506b33b98a0f618ac8d97a30163116da471ff3eff628c7f0f1e328d110e7fe75",
-          "sha256": "026eb45e080f92188e26e32323fbfb37ae03d24df02b04598fbb193b499f953e",
-          "sha1": "433a1a612c9be0102c32dcbfc10af0b18da901b3",
-          "md5": "29d00e294a2cd7bfcdb8838577a9da75"
+          "name": "access-1.75.aar",
+          "url": "access-1.75.aar",
+          "size": 2771176,
+          "sha512": "c2da70e5a38641463b979f9717b6d5a39d6fcbc82a403768ce84f99a8e3636367665fc75acfa97cad93ab1d6200e340fedf984c030beda143b1652c9754cc91f",
+          "sha256": "4cbfdb0546a24cb8b9e414b055f6516b0ee87f505b44478719073667c7aae4bb",
+          "sha1": "2ec64c8b934aee0e79f430ae4444f9bc3696b658",
+          "md5": "1e3963174f183ef4b4bb1c239eb68f4c"
         }
       ]
     },
