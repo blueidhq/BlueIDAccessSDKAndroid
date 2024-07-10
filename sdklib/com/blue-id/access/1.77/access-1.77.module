@@ -3,7 +3,7 @@
   "component": {
     "group": "com.blue-id",
     "module": "access",
-    "version": "1.75",
+    "version": "1.77",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -15,11 +15,12 @@
   },
   "variants": [
     {
-      "name": "releaseApiElements-published",
+      "name": "releaseVariantReleaseApiPublication",
       "attributes": {
         "org.gradle.category": "library",
-        "org.gradle.usage": "java-api",
-        "org.jetbrains.kotlin.platform.type": "androidJvm"
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
       },
       "dependencies": [
         {
@@ -32,29 +33,30 @@
       ],
       "files": [
         {
-          "name": "access-1.75.aar",
-          "url": "access-1.75.aar",
-          "size": 2771176,
-          "sha512": "c2da70e5a38641463b979f9717b6d5a39d6fcbc82a403768ce84f99a8e3636367665fc75acfa97cad93ab1d6200e340fedf984c030beda143b1652c9754cc91f",
-          "sha256": "4cbfdb0546a24cb8b9e414b055f6516b0ee87f505b44478719073667c7aae4bb",
-          "sha1": "2ec64c8b934aee0e79f430ae4444f9bc3696b658",
-          "md5": "1e3963174f183ef4b4bb1c239eb68f4c"
+          "name": "access-1.77.aar",
+          "url": "access-1.77.aar",
+          "size": 2769251,
+          "sha512": "c70f626f486547890cb05ae20ee7e4de51abfa3a5418e9619d881fe3eb60446c5298c5396643a529facd86a47c66e006dee5fef35411e6ef37f27d38e24c5e7a",
+          "sha256": "d1e37e01f7f012e5e00f220d1974814231897048ef6c5088ae1ac8f929e55f0c",
+          "sha1": "5c953974f4505e62ba5f2dd1cb80445ee3a3ab39",
+          "md5": "fea38902e559d222538df285dfc14860"
         }
       ]
     },
     {
-      "name": "releaseRuntimeElements-published",
+      "name": "releaseVariantReleaseRuntimePublication",
       "attributes": {
         "org.gradle.category": "library",
-        "org.gradle.usage": "java-runtime",
-        "org.jetbrains.kotlin.platform.type": "androidJvm"
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
       },
       "dependencies": [
         {
           "group": "androidx.compose",
           "module": "compose-bom",
           "version": {
-            "requires": "2024.05.00"
+            "requires": "2024.06.00"
           },
           "attributes": {
             "org.gradle.category": "platform"
@@ -77,15 +79,24 @@
         },
         {
           "group": "androidx.compose.ui",
-          "module": "ui"
+          "module": "ui",
+          "version": {
+            "requires": "1.6.8"
+          }
         },
         {
           "group": "androidx.compose.ui",
-          "module": "ui-graphics"
+          "module": "ui-graphics",
+          "version": {
+            "requires": "1.6.8"
+          }
         },
         {
           "group": "androidx.compose.ui",
-          "module": "ui-tooling-preview"
+          "module": "ui-tooling-preview",
+          "version": {
+            "requires": "1.6.8"
+          }
         },
         {
           "group": "androidx.lifecycle",
@@ -300,26 +311,15 @@
       ],
       "files": [
         {
-          "name": "access-1.75.aar",
-          "url": "access-1.75.aar",
-          "size": 2771176,
-          "sha512": "c2da70e5a38641463b979f9717b6d5a39d6fcbc82a403768ce84f99a8e3636367665fc75acfa97cad93ab1d6200e340fedf984c030beda143b1652c9754cc91f",
-          "sha256": "4cbfdb0546a24cb8b9e414b055f6516b0ee87f505b44478719073667c7aae4bb",
-          "sha1": "2ec64c8b934aee0e79f430ae4444f9bc3696b658",
-          "md5": "1e3963174f183ef4b4bb1c239eb68f4c"
+          "name": "access-1.77.aar",
+          "url": "access-1.77.aar",
+          "size": 2769251,
+          "sha512": "c70f626f486547890cb05ae20ee7e4de51abfa3a5418e9619d881fe3eb60446c5298c5396643a529facd86a47c66e006dee5fef35411e6ef37f27d38e24c5e7a",
+          "sha256": "d1e37e01f7f012e5e00f220d1974814231897048ef6c5088ae1ac8f929e55f0c",
+          "sha1": "5c953974f4505e62ba5f2dd1cb80445ee3a3ab39",
+          "md5": "fea38902e559d222538df285dfc14860"
         }
       ]
-    },
-    {
-      "name": "releaseSourcesElements-published",
-      "attributes": {
-        "org.gradle.category": "documentation",
-        "org.gradle.dependency.bundling": "external",
-        "org.gradle.docstype": "sources",
-        "org.gradle.libraryelements": "jar",
-        "org.gradle.usage": "java-runtime",
-        "org.jetbrains.kotlin.platform.type": "androidJvm"
-      }
     }
   ]
 }

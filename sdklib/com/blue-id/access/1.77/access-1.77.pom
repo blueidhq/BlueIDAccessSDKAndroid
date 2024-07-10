@@ -9,14 +9,37 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.blue-id</groupId>
   <artifactId>access</artifactId>
-  <version>1.75</version>
+  <version>1.77</version>
   <packaging>aar</packaging>
+  <name>BlueID Access SDK</name>
+  <description>Access SDK to communicate with BlueID Access Devices</description>
+  <url>https://github.com/blueidhq/BlueIDAccessSDKAndroid.git</url>
+  <inceptionYear>2024</inceptionYear>
+  <licenses>
+    <license>
+      <name>Proprietary Software License</name>
+      <url>https://www.blue-id.com/de/datenschutz</url>
+      <distribution>https://www.blue-id.com/de/datenschutz</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>BlueIDAdmin</id>
+      <name>BlueIDAdmin</name>
+      <url>https://github.com/BlueIDAdmin</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/blueidhq/BlueIDAccessSDKAndroid.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/blueidhq/BlueIDAccessSDKAndroid.git</developerConnection>
+    <url>https://github.com/blueidhq/BlueIDAccessSDKAndroid</url>
+  </scm>
   <dependencyManagement>
     <dependencies>
       <dependency>
         <groupId>androidx.compose</groupId>
         <artifactId>compose-bom</artifactId>
-        <version>2024.05.00</version>
+        <version>2024.06.00</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -44,16 +67,19 @@
     <dependency>
       <groupId>androidx.compose.ui</groupId>
       <artifactId>ui</artifactId>
+      <version>1.6.8</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>androidx.compose.ui</groupId>
       <artifactId>ui-graphics</artifactId>
+      <version>1.6.8</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>androidx.compose.ui</groupId>
       <artifactId>ui-tooling-preview</artifactId>
+      <version>1.6.8</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
