@@ -3,14 +3,14 @@
   "component": {
     "group": "com.blue-id",
     "module": "access",
-    "version": "1.78",
+    "version": "1.79",
     "attributes": {
       "org.gradle.status": "release"
     }
   },
   "createdBy": {
     "gradle": {
-      "version": "8.6"
+      "version": "8.7"
     }
   },
   "variants": [
@@ -27,19 +27,19 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "1.9.23"
+            "requires": "2.0.0"
           }
         }
       ],
       "files": [
         {
-          "name": "access-1.78.aar",
-          "url": "access-1.78.aar",
-          "size": 2773185,
-          "sha512": "59d59ac427c691d730ce247452fca2e81aa6c4d3c7d878bb7ab79f1250cc2e738042daec9b7aa31861ba123f46f8ad0951b7f2c06abc6f50d414ceb8a7cc1c13",
-          "sha256": "46918bb73b8d5db36a07736fd3825b69c93b1fda111c0c0d067b45613e559510",
-          "sha1": "e63cc4bf1ebe9380a3ee33f94bd09dcace775225",
-          "md5": "a90056963c7fcedbf0cccd5a1ea824d0"
+          "name": "access-1.79.aar",
+          "url": "access-1.79.aar",
+          "size": 2736030,
+          "sha512": "1c2ddaf5420c75ef9d2d8e3b6fb2f5d1e0ca4c59cde160845809c3aa54f3c649d4e613aa1d79756ba6d069eb27ca16d2dd99fce99678327f39f9bf8e7e9fe5a9",
+          "sha256": "e402ff2aa470c9cafed85fbc7f45d80fbaafecd7bb5f32749e366d5d9c60479e",
+          "sha1": "ac9724e5eaa4c993f78a491cb0f56b2a9c2f4ccf",
+          "md5": "519dbedf9dc79ebd281458ed29d64f54"
         }
       ]
     },
@@ -102,14 +102,14 @@
           "group": "androidx.lifecycle",
           "module": "lifecycle-viewmodel-compose",
           "version": {
-            "requires": "2.7.0"
+            "requires": "2.8.3"
           }
         },
         {
           "group": "androidx.lifecycle",
           "module": "lifecycle-runtime-compose",
           "version": {
-            "requires": "2.7.0"
+            "requires": "2.8.3"
           }
         },
         {
@@ -137,21 +137,21 @@
           "group": "androidx.appcompat",
           "module": "appcompat",
           "version": {
-            "requires": "1.6.1"
+            "requires": "1.7.0"
           }
         },
         {
           "group": "com.squareup.retrofit2",
           "module": "retrofit",
           "version": {
-            "requires": "2.9.0"
+            "requires": "2.11.0"
           }
         },
         {
           "group": "com.squareup.retrofit2",
           "module": "converter-scalars",
           "version": {
-            "requires": "2.9.0"
+            "requires": "2.11.0"
           }
         },
         {
@@ -228,7 +228,7 @@
           "group": "androidx.annotation",
           "module": "annotation",
           "version": {
-            "requires": "1.7.1"
+            "requires": "1.8.0"
           }
         },
         {
@@ -242,14 +242,14 @@
           "group": "org.jetbrains.kotlinx",
           "module": "kotlinx-serialization-json",
           "version": {
-            "requires": "1.6.0"
+            "requires": "1.6.3"
           }
         },
         {
           "group": "androidx.lifecycle",
           "module": "lifecycle-viewmodel-ktx",
           "version": {
-            "requires": "2.7.0"
+            "requires": "2.8.3"
           }
         },
         {
@@ -277,7 +277,7 @@
           "group": "com.google.dagger",
           "module": "dagger",
           "version": {
-            "requires": "2.50"
+            "requires": "2.51.1"
           }
         },
         {
@@ -291,7 +291,7 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-reflect",
           "version": {
-            "requires": "1.9.23"
+            "requires": "2.0.0"
           }
         },
         {
@@ -305,19 +305,19 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "1.9.23"
+            "requires": "2.0.0"
           }
         }
       ],
       "files": [
         {
-          "name": "access-1.78.aar",
-          "url": "access-1.78.aar",
-          "size": 2773185,
-          "sha512": "59d59ac427c691d730ce247452fca2e81aa6c4d3c7d878bb7ab79f1250cc2e738042daec9b7aa31861ba123f46f8ad0951b7f2c06abc6f50d414ceb8a7cc1c13",
-          "sha256": "46918bb73b8d5db36a07736fd3825b69c93b1fda111c0c0d067b45613e559510",
-          "sha1": "e63cc4bf1ebe9380a3ee33f94bd09dcace775225",
-          "md5": "a90056963c7fcedbf0cccd5a1ea824d0"
+          "name": "access-1.79.aar",
+          "url": "access-1.79.aar",
+          "size": 2736030,
+          "sha512": "1c2ddaf5420c75ef9d2d8e3b6fb2f5d1e0ca4c59cde160845809c3aa54f3c649d4e613aa1d79756ba6d069eb27ca16d2dd99fce99678327f39f9bf8e7e9fe5a9",
+          "sha256": "e402ff2aa470c9cafed85fbc7f45d80fbaafecd7bb5f32749e366d5d9c60479e",
+          "sha1": "ac9724e5eaa4c993f78a491cb0f56b2a9c2f4ccf",
+          "md5": "519dbedf9dc79ebd281458ed29d64f54"
         }
       ]
     }
