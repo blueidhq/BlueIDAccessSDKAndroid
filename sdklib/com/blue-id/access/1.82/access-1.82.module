@@ -3,7 +3,7 @@
   "component": {
     "group": "com.blue-id",
     "module": "access",
-    "version": "1.79",
+    "version": "1.82",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -33,13 +33,13 @@
       ],
       "files": [
         {
-          "name": "access-1.79.aar",
-          "url": "access-1.79.aar",
-          "size": 2736030,
-          "sha512": "1c2ddaf5420c75ef9d2d8e3b6fb2f5d1e0ca4c59cde160845809c3aa54f3c649d4e613aa1d79756ba6d069eb27ca16d2dd99fce99678327f39f9bf8e7e9fe5a9",
-          "sha256": "e402ff2aa470c9cafed85fbc7f45d80fbaafecd7bb5f32749e366d5d9c60479e",
-          "sha1": "ac9724e5eaa4c993f78a491cb0f56b2a9c2f4ccf",
-          "md5": "519dbedf9dc79ebd281458ed29d64f54"
+          "name": "access-1.82.aar",
+          "url": "access-1.82.aar",
+          "size": 2736151,
+          "sha512": "fd6af878499a2283b346f567b98e982df6cbd05859d88eb2a99ed5d14d0c13e2ecdb64a0e81c007d55f5df75684b0c65f1be9dee8f570027126704060d672914",
+          "sha256": "d71ba1f434c3b2cab9f3ba0ffba5363191f72f2520909632e2118a7b6d341a1b",
+          "sha1": "8c1087f66135d4543d356383b58188719a5d6a29",
+          "md5": "0c1a46ceeb42ee3c3c6e1dd82ec18adb"
         }
       ]
     },
@@ -193,14 +193,14 @@
           "group": "com.google.protobuf",
           "module": "protobuf-java",
           "version": {
-            "requires": "4.27.1"
+            "requires": "4.28.1"
           }
         },
         {
           "group": "com.google.protobuf",
           "module": "protobuf-java-util",
           "version": {
-            "requires": "4.27.1"
+            "requires": "4.28.1"
           }
         },
         {
@@ -311,13 +311,13 @@
       ],
       "files": [
         {
-          "name": "access-1.79.aar",
-          "url": "access-1.79.aar",
-          "size": 2736030,
-          "sha512": "1c2ddaf5420c75ef9d2d8e3b6fb2f5d1e0ca4c59cde160845809c3aa54f3c649d4e613aa1d79756ba6d069eb27ca16d2dd99fce99678327f39f9bf8e7e9fe5a9",
-          "sha256": "e402ff2aa470c9cafed85fbc7f45d80fbaafecd7bb5f32749e366d5d9c60479e",
-          "sha1": "ac9724e5eaa4c993f78a491cb0f56b2a9c2f4ccf",
-          "md5": "519dbedf9dc79ebd281458ed29d64f54"
+          "name": "access-1.82.aar",
+          "url": "access-1.82.aar",
+          "size": 2736151,
+          "sha512": "fd6af878499a2283b346f567b98e982df6cbd05859d88eb2a99ed5d14d0c13e2ecdb64a0e81c007d55f5df75684b0c65f1be9dee8f570027126704060d672914",
+          "sha256": "d71ba1f434c3b2cab9f3ba0ffba5363191f72f2520909632e2118a7b6d341a1b",
+          "sha1": "8c1087f66135d4543d356383b58188719a5d6a29",
+          "md5": "0c1a46ceeb42ee3c3c6e1dd82ec18adb"
         }
       ]
     }
