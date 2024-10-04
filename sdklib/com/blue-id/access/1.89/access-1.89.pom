@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.blue-id</groupId>
   <artifactId>access</artifactId>
-  <version>1.87</version>
+  <version>1.89</version>
   <packaging>aar</packaging>
   <name>BlueID Access SDK</name>
   <description>Access SDK to communicate with BlueID Access Devices</description>
