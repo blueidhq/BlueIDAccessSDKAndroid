@@ -3,7 +3,7 @@
   "component": {
     "group": "com.blue-id",
     "module": "access",
-    "version": "1.96",
+    "version": "2.0",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -24,22 +24,29 @@
       },
       "dependencies": [
         {
+          "group": "io.jsonwebtoken",
+          "module": "jjwt-api",
+          "version": {
+            "requires": "0.12.6"
+          }
+        },
+        {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "2.0.0"
+            "requires": "2.0.20"
           }
         }
       ],
       "files": [
         {
-          "name": "access-1.96.aar",
-          "url": "access-1.96.aar",
-          "size": 2747493,
-          "sha512": "13e6633c00c5664a6c0119b558b685a27548eb39bbfed237f1695123b8b9bb377513020133683f4b6e3aada7eff3f8be80b4c74d250fe650b82ca0bfdc57bc5c",
-          "sha256": "9b3b578165b82d1bbd043ff35dcc3b3902fd6c39ac7f2a5b69c6414cb5096286",
-          "sha1": "f8337d006b6b88e803c0eb15a1e11b5cad7e7701",
-          "md5": "793579d8eeb7dff8c28750ec480837cd"
+          "name": "access-2.0.aar",
+          "url": "access-2.0.aar",
+          "size": 2844887,
+          "sha512": "6b3c6622cef92f04ccee4500a87db36dc4dbeb56510e22682ac1818113f38e4d9a5fc88c99bf3865aa6feb7ed6f97842dc0feeff801ddd9e03fba56a6b9c0b35",
+          "sha256": "6482bb2a5d0a729f47d1b660154a23f2fc1ec0e04e333fadb3b1846df896f7ad",
+          "sha1": "075a26ef89cca23b0c9ab0062908cb05be01b924",
+          "md5": "563eafe17947b940aafb6b2c62d93a95"
         }
       ]
     },
@@ -53,10 +60,30 @@
       },
       "dependencies": [
         {
+          "group": "io.jsonwebtoken",
+          "module": "jjwt-impl",
+          "version": {
+            "requires": "0.12.6"
+          }
+        },
+        {
+          "group": "io.jsonwebtoken",
+          "module": "jjwt-orgjson",
+          "version": {
+            "requires": "0.12.6"
+          },
+          "excludes": [
+            {
+              "group": "org.json",
+              "module": "json"
+            }
+          ]
+        },
+        {
           "group": "androidx.compose",
           "module": "compose-bom",
           "version": {
-            "requires": "2024.06.00"
+            "requires": "2024.09.00"
           },
           "attributes": {
             "org.gradle.category": "platform"
@@ -67,49 +94,49 @@
           "group": "androidx.activity",
           "module": "activity-compose",
           "version": {
-            "requires": "1.9.0"
+            "requires": "1.9.2"
           }
         },
         {
           "group": "androidx.compose.material3",
           "module": "material3",
           "version": {
-            "requires": "1.2.1"
+            "requires": "1.3.0"
           }
         },
         {
           "group": "androidx.compose.ui",
           "module": "ui",
           "version": {
-            "requires": "1.6.8"
+            "requires": "1.7.0"
           }
         },
         {
           "group": "androidx.compose.ui",
           "module": "ui-graphics",
           "version": {
-            "requires": "1.6.8"
+            "requires": "1.7.0"
           }
         },
         {
           "group": "androidx.compose.ui",
           "module": "ui-tooling-preview",
           "version": {
-            "requires": "1.6.8"
+            "requires": "1.7.0"
           }
         },
         {
           "group": "androidx.lifecycle",
           "module": "lifecycle-viewmodel-compose",
           "version": {
-            "requires": "2.8.3"
+            "requires": "2.8.5"
           }
         },
         {
           "group": "androidx.lifecycle",
           "module": "lifecycle-runtime-compose",
           "version": {
-            "requires": "2.8.3"
+            "requires": "2.8.5"
           }
         },
         {
@@ -162,17 +189,17 @@
           }
         },
         {
-          "group": "com.jakewharton.retrofit",
-          "module": "retrofit2-kotlinx-serialization-converter",
+          "group": "com.squareup.retrofit2",
+          "module": "converter-kotlinx-serialization",
           "version": {
-            "requires": "1.0.0"
+            "requires": "2.11.0"
           }
         },
         {
           "group": "no.nordicsemi.android",
           "module": "dfu",
           "version": {
-            "requires": "2.4.2"
+            "requires": "2.5.0"
           }
         },
         {
@@ -204,6 +231,20 @@
           }
         },
         {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk18on",
+          "version": {
+            "requires": "1.77"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcpkix-jdk18on",
+          "version": {
+            "requires": "1.77"
+          }
+        },
+        {
           "group": "com.jakewharton.timber",
           "module": "timber",
           "version": {
@@ -221,35 +262,35 @@
           "group": "androidx.activity",
           "module": "activity-ktx",
           "version": {
-            "requires": "1.9.0"
+            "requires": "1.9.2"
           }
         },
         {
           "group": "androidx.annotation",
           "module": "annotation",
           "version": {
-            "requires": "1.8.0"
+            "requires": "1.8.2"
           }
         },
         {
           "group": "org.jetbrains.kotlinx",
           "module": "kotlinx-coroutines-android",
           "version": {
-            "requires": "1.8.1"
+            "requires": "1.9.0"
           }
         },
         {
           "group": "org.jetbrains.kotlinx",
           "module": "kotlinx-serialization-json",
           "version": {
-            "requires": "1.6.3"
+            "requires": "1.7.3"
           }
         },
         {
           "group": "androidx.lifecycle",
           "module": "lifecycle-viewmodel-ktx",
           "version": {
-            "requires": "2.8.3"
+            "requires": "2.8.6"
           }
         },
         {
@@ -263,21 +304,21 @@
           "group": "androidx.work",
           "module": "work-runtime",
           "version": {
-            "requires": "2.9.0"
+            "requires": "2.9.1"
           }
         },
         {
           "group": "androidx.work",
           "module": "work-runtime-ktx",
           "version": {
-            "requires": "2.9.0"
+            "requires": "2.9.1"
           }
         },
         {
           "group": "com.google.dagger",
           "module": "dagger",
           "version": {
-            "requires": "2.51.1"
+            "requires": "2.52"
           }
         },
         {
@@ -289,35 +330,48 @@
         },
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-reflect",
-          "version": {
-            "requires": "2.0.0"
-          }
+          "module": "kotlin-reflect"
         },
         {
           "group": "org.mockito",
           "module": "mockito-bom",
           "version": {
-            "requires": "5.11.0"
+            "requires": "5.14.1"
+          }
+        },
+        {
+          "group": "io.jsonwebtoken",
+          "module": "jjwt-api",
+          "version": {
+            "requires": "0.12.6"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "2.0.0"
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.0.20"
           }
         }
       ],
       "files": [
         {
-          "name": "access-1.96.aar",
-          "url": "access-1.96.aar",
-          "size": 2747493,
-          "sha512": "13e6633c00c5664a6c0119b558b685a27548eb39bbfed237f1695123b8b9bb377513020133683f4b6e3aada7eff3f8be80b4c74d250fe650b82ca0bfdc57bc5c",
-          "sha256": "9b3b578165b82d1bbd043ff35dcc3b3902fd6c39ac7f2a5b69c6414cb5096286",
-          "sha1": "f8337d006b6b88e803c0eb15a1e11b5cad7e7701",
-          "md5": "793579d8eeb7dff8c28750ec480837cd"
+          "name": "access-2.0.aar",
+          "url": "access-2.0.aar",
+          "size": 2844887,
+          "sha512": "6b3c6622cef92f04ccee4500a87db36dc4dbeb56510e22682ac1818113f38e4d9a5fc88c99bf3865aa6feb7ed6f97842dc0feeff801ddd9e03fba56a6b9c0b35",
+          "sha256": "6482bb2a5d0a729f47d1b660154a23f2fc1ec0e04e333fadb3b1846df896f7ad",
+          "sha1": "075a26ef89cca23b0c9ab0062908cb05be01b924",
+          "md5": "563eafe17947b940aafb6b2c62d93a95"
         }
       ]
     }
