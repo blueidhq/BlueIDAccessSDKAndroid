@@ -3,14 +3,14 @@
   "component": {
     "group": "com.blue-id",
     "module": "access",
-    "version": "2.9.0",
+    "version": "2.11.0",
     "attributes": {
       "org.gradle.status": "release"
     }
   },
   "createdBy": {
     "gradle": {
-      "version": "8.7"
+      "version": "8.9"
     }
   },
   "variants": [
@@ -34,19 +34,19 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "2.0.20"
+            "requires": "2.1.0"
           }
         }
       ],
       "files": [
         {
-          "name": "access-2.9.0.aar",
-          "url": "access-2.9.0.aar",
-          "size": 2863429,
-          "sha512": "d8fa80e61411fd844573960b649e405f8b74edfee1faa85ea70434adc8c5725472eee9bbd4e7878c3bdf9233f0d2cfcab1cd0f6a48946b34728dc3060670fd49",
-          "sha256": "a923de9891993c3b8737d6d6613aeb406054ab526d20d7b89b0804e277703be3",
-          "sha1": "4f073b0ca4b9660e0947d0d2c8c8bd2faad5ba6b",
-          "md5": "9ef0312c47a40dd0b4218ed57e8962bc"
+          "name": "access-2.11.0.aar",
+          "url": "access-2.11.0.aar",
+          "size": 2859080,
+          "sha512": "3fb25e8421240bf27e93a7665640789cca2ed234d7983d48f8986fff039f327463e0499d97cc709990dd6bf9eca39c1cf9d3c54ef53e96f3685a3abd6d849b55",
+          "sha256": "dde4603d094383ab13f94c0b455ab595f448710b70c4744e8836521e3d0e1dfd",
+          "sha1": "663282e27b2cf8325c275ba4c1278c9fe4badb03",
+          "md5": "220e8fa26131092270721e55169ac40e"
         }
       ]
     },
@@ -83,7 +83,7 @@
           "group": "androidx.compose",
           "module": "compose-bom",
           "version": {
-            "requires": "2024.09.00"
+            "requires": "2024.11.00"
           },
           "attributes": {
             "org.gradle.category": "platform"
@@ -94,49 +94,49 @@
           "group": "androidx.activity",
           "module": "activity-compose",
           "version": {
-            "requires": "1.9.2"
+            "requires": "1.9.3"
           }
         },
         {
           "group": "androidx.compose.material3",
           "module": "material3",
           "version": {
-            "requires": "1.3.0"
+            "requires": "1.3.1"
           }
         },
         {
           "group": "androidx.compose.ui",
           "module": "ui",
           "version": {
-            "requires": "1.7.0"
+            "requires": "1.7.5"
           }
         },
         {
           "group": "androidx.compose.ui",
           "module": "ui-graphics",
           "version": {
-            "requires": "1.7.0"
+            "requires": "1.7.5"
           }
         },
         {
           "group": "androidx.compose.ui",
           "module": "ui-tooling-preview",
           "version": {
-            "requires": "1.7.0"
+            "requires": "1.7.5"
           }
         },
         {
           "group": "androidx.lifecycle",
           "module": "lifecycle-viewmodel-compose",
           "version": {
-            "requires": "2.8.5"
+            "requires": "2.8.7"
           }
         },
         {
           "group": "androidx.lifecycle",
           "module": "lifecycle-runtime-compose",
           "version": {
-            "requires": "2.8.5"
+            "requires": "2.8.7"
           }
         },
         {
@@ -206,14 +206,14 @@
           "group": "no.nordicsemi.android.kotlin.ble",
           "module": "scanner",
           "version": {
-            "requires": "1.0.16"
+            "requires": "1.2.0"
           }
         },
         {
           "group": "no.nordicsemi.android.kotlin.ble",
           "module": "client",
           "version": {
-            "requires": "1.0.16"
+            "requires": "1.2.0"
           }
         },
         {
@@ -262,14 +262,14 @@
           "group": "androidx.activity",
           "module": "activity-ktx",
           "version": {
-            "requires": "1.9.2"
+            "requires": "1.9.3"
           }
         },
         {
           "group": "androidx.annotation",
           "module": "annotation",
           "version": {
-            "requires": "1.8.2"
+            "requires": "1.9.1"
           }
         },
         {
@@ -290,7 +290,7 @@
           "group": "androidx.lifecycle",
           "module": "lifecycle-viewmodel-ktx",
           "version": {
-            "requires": "2.8.6"
+            "requires": "2.8.7"
           }
         },
         {
@@ -304,14 +304,14 @@
           "group": "androidx.work",
           "module": "work-runtime",
           "version": {
-            "requires": "2.9.1"
+            "requires": "2.10.0"
           }
         },
         {
           "group": "androidx.work",
           "module": "work-runtime-ktx",
           "version": {
-            "requires": "2.9.1"
+            "requires": "2.10.0"
           }
         },
         {
@@ -350,7 +350,7 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "2.0.20"
+            "requires": "2.1.0"
           }
         }
       ],
@@ -359,19 +359,19 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-reflect",
           "version": {
-            "requires": "2.0.20"
+            "requires": "2.1.0"
           }
         }
       ],
       "files": [
         {
-          "name": "access-2.9.0.aar",
-          "url": "access-2.9.0.aar",
-          "size": 2863429,
-          "sha512": "d8fa80e61411fd844573960b649e405f8b74edfee1faa85ea70434adc8c5725472eee9bbd4e7878c3bdf9233f0d2cfcab1cd0f6a48946b34728dc3060670fd49",
-          "sha256": "a923de9891993c3b8737d6d6613aeb406054ab526d20d7b89b0804e277703be3",
-          "sha1": "4f073b0ca4b9660e0947d0d2c8c8bd2faad5ba6b",
-          "md5": "9ef0312c47a40dd0b4218ed57e8962bc"
+          "name": "access-2.11.0.aar",
+          "url": "access-2.11.0.aar",
+          "size": 2859080,
+          "sha512": "3fb25e8421240bf27e93a7665640789cca2ed234d7983d48f8986fff039f327463e0499d97cc709990dd6bf9eca39c1cf9d3c54ef53e96f3685a3abd6d849b55",
+          "sha256": "dde4603d094383ab13f94c0b455ab595f448710b70c4744e8836521e3d0e1dfd",
+          "sha1": "663282e27b2cf8325c275ba4c1278c9fe4badb03",
+          "md5": "220e8fa26131092270721e55169ac40e"
         }
       ]
     }
