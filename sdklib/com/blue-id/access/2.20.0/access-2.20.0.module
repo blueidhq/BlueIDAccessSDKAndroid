@@ -3,7 +3,7 @@
   "component": {
     "group": "com.blue-id",
     "module": "access",
-    "version": "2.19.0",
+    "version": "2.20.0",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -34,19 +34,19 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "2.1.0"
+            "requires": "1.9.24"
           }
         }
       ],
       "files": [
         {
-          "name": "access-2.19.0.aar",
-          "url": "access-2.19.0.aar",
-          "size": 2891905,
-          "sha512": "49f081e25896d982632496b47cd7b0a0ed20c881c095970aac5d1afc57e9ce6cdf260b58fd1ce7f0323c78fd8a08cb1211b91a0de223e02602deb4612a533e6d",
-          "sha256": "8e620e97adb42d3fa509998329b4d48c4a1d99236aeb231ba8f052393f9eb960",
-          "sha1": "7e7567bcf3a32bb258291576316bea6c6b565077",
-          "md5": "0357510f44ac921ac0f697b995b3a79e"
+          "name": "access-2.20.0.aar",
+          "url": "access-2.20.0.aar",
+          "size": 2929009,
+          "sha512": "6094d6d37393dae1c1efebd5c3537f292c3c13e2ee54b7493415b84a2739a96f87cc888e760f5a03479fbedb7469bb66a1972c8b013267686cce90234b85672b",
+          "sha256": "a6bc99f1d111031604d856fd2fbf524364a8aec70e5138c23ebcea47f36d87c0",
+          "sha1": "ed05f293f2a4b4e3d1b2acdfa4817570918d5a12",
+          "md5": "6d7a27690565b6fc86b0f3aecaba5f34"
         }
       ]
     },
@@ -83,7 +83,7 @@
           "group": "androidx.compose",
           "module": "compose-bom",
           "version": {
-            "requires": "2024.11.00"
+            "requires": "2024.08.00"
           },
           "attributes": {
             "org.gradle.category": "platform"
@@ -94,7 +94,7 @@
           "group": "androidx.activity",
           "module": "activity-compose",
           "version": {
-            "requires": "1.9.3"
+            "requires": "1.8.0"
           }
         },
         {
@@ -108,35 +108,35 @@
           "group": "androidx.compose.ui",
           "module": "ui",
           "version": {
-            "requires": "1.7.5"
+            "requires": "1.6.0"
           }
         },
         {
           "group": "androidx.compose.ui",
           "module": "ui-graphics",
           "version": {
-            "requires": "1.7.5"
+            "requires": "1.6.0"
           }
         },
         {
           "group": "androidx.compose.ui",
           "module": "ui-tooling-preview",
           "version": {
-            "requires": "1.7.5"
+            "requires": "1.6.0"
           }
         },
         {
           "group": "androidx.lifecycle",
           "module": "lifecycle-viewmodel-compose",
           "version": {
-            "requires": "2.8.7"
+            "requires": "2.7.0"
           }
         },
         {
           "group": "androidx.lifecycle",
           "module": "lifecycle-runtime-compose",
           "version": {
-            "requires": "2.8.7"
+            "requires": "2.7.0"
           }
         },
         {
@@ -206,14 +206,14 @@
           "group": "no.nordicsemi.android.kotlin.ble",
           "module": "scanner",
           "version": {
-            "requires": "1.2.0"
+            "requires": "1.0.16"
           }
         },
         {
           "group": "no.nordicsemi.android.kotlin.ble",
           "module": "client",
           "version": {
-            "requires": "1.2.0"
+            "requires": "1.0.16"
           }
         },
         {
@@ -283,7 +283,7 @@
           "group": "org.jetbrains.kotlinx",
           "module": "kotlinx-serialization-json",
           "version": {
-            "requires": "1.7.3"
+            "requires": "1.6.3"
           }
         },
         {
@@ -304,21 +304,21 @@
           "group": "androidx.work",
           "module": "work-runtime",
           "version": {
-            "requires": "2.10.0"
+            "requires": "2.9.1"
           }
         },
         {
           "group": "androidx.work",
           "module": "work-runtime-ktx",
           "version": {
-            "requires": "2.10.0"
+            "requires": "2.9.1"
           }
         },
         {
           "group": "com.google.dagger",
           "module": "dagger",
           "version": {
-            "requires": "2.52"
+            "requires": "2.48.1"
           }
         },
         {
@@ -330,7 +330,10 @@
         },
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-reflect"
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.24"
+          }
         },
         {
           "group": "org.mockito",
@@ -350,28 +353,19 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "2.1.0"
-          }
-        }
-      ],
-      "dependencyConstraints": [
-        {
-          "group": "org.jetbrains.kotlin",
-          "module": "kotlin-reflect",
-          "version": {
-            "requires": "2.1.0"
+            "requires": "1.9.24"
           }
         }
       ],
       "files": [
         {
-          "name": "access-2.19.0.aar",
-          "url": "access-2.19.0.aar",
-          "size": 2891905,
-          "sha512": "49f081e25896d982632496b47cd7b0a0ed20c881c095970aac5d1afc57e9ce6cdf260b58fd1ce7f0323c78fd8a08cb1211b91a0de223e02602deb4612a533e6d",
-          "sha256": "8e620e97adb42d3fa509998329b4d48c4a1d99236aeb231ba8f052393f9eb960",
-          "sha1": "7e7567bcf3a32bb258291576316bea6c6b565077",
-          "md5": "0357510f44ac921ac0f697b995b3a79e"
+          "name": "access-2.20.0.aar",
+          "url": "access-2.20.0.aar",
+          "size": 2929009,
+          "sha512": "6094d6d37393dae1c1efebd5c3537f292c3c13e2ee54b7493415b84a2739a96f87cc888e760f5a03479fbedb7469bb66a1972c8b013267686cce90234b85672b",
+          "sha256": "a6bc99f1d111031604d856fd2fbf524364a8aec70e5138c23ebcea47f36d87c0",
+          "sha1": "ed05f293f2a4b4e3d1b2acdfa4817570918d5a12",
+          "md5": "6d7a27690565b6fc86b0f3aecaba5f34"
         }
       ]
     }
