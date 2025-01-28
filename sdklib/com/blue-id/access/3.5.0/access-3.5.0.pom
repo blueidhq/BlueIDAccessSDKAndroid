@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.blue-id</groupId>
   <artifactId>access</artifactId>
-  <version>3.4.0</version>
+  <version>3.5.0</version>
   <packaging>aar</packaging>
   <name>BlueID Access SDK</name>
   <description>Access SDK to communicate with BlueID Access Devices</description>
@@ -200,18 +200,6 @@
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
       <version>33.2.1-android</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.bouncycastle</groupId>
-      <artifactId>bcprov-jdk18on</artifactId>
-      <version>1.77</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.bouncycastle</groupId>
-      <artifactId>bcpkix-jdk18on</artifactId>
-      <version>1.77</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>

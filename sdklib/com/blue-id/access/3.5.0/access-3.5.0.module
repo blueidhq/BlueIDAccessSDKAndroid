@@ -3,7 +3,7 @@
   "component": {
     "group": "com.blue-id",
     "module": "access",
-    "version": "3.4.0",
+    "version": "3.5.0",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -40,13 +40,13 @@
       ],
       "files": [
         {
-          "name": "access-3.4.0.aar",
-          "url": "access-3.4.0.aar",
-          "size": 2961695,
-          "sha512": "ecdac7749a30f18f858afde39d42fee8c41e7238fc0d6b830cafb3aff037240dbee1025e955cb295aabef7d3cbda51ebc60e8f894ccc981f793ee47ba5af297f",
-          "sha256": "4c00bdcdc8c57efc34d416f502b35908bc10fc0ee67250bd3d4b04b65875f5eb",
-          "sha1": "d5ac125fff94ae1d9ef491b5f7c55cae7a7ecc71",
-          "md5": "1e1df888743829559eb6d1c295a6059b"
+          "name": "access-3.5.0.aar",
+          "url": "access-3.5.0.aar",
+          "size": 2960240,
+          "sha512": "80fe694b22e79e52bd238df5762d78aabb873ae61d496a9ca1aed80d1f8d08ac3b98f6dc57ce8368db9c9598431afb07096392f947b3cfc7d6c3be251cbd8dcd",
+          "sha256": "7968ad069e03b2cc35b3dc1f9fcdf30c547084a9bc56cf7e28d124372cfc4d63",
+          "sha1": "dde19ea37132dd9d637925dd4c895df03bdfffcb",
+          "md5": "0e40b139ec067ad003495fdbc6e8c777"
         }
       ]
     },
@@ -238,20 +238,6 @@
           }
         },
         {
-          "group": "org.bouncycastle",
-          "module": "bcprov-jdk18on",
-          "version": {
-            "requires": "1.77"
-          }
-        },
-        {
-          "group": "org.bouncycastle",
-          "module": "bcpkix-jdk18on",
-          "version": {
-            "requires": "1.77"
-          }
-        },
-        {
           "group": "com.jakewharton.timber",
           "module": "timber",
           "version": {
@@ -366,13 +352,13 @@
       ],
       "files": [
         {
-          "name": "access-3.4.0.aar",
-          "url": "access-3.4.0.aar",
-          "size": 2961695,
-          "sha512": "ecdac7749a30f18f858afde39d42fee8c41e7238fc0d6b830cafb3aff037240dbee1025e955cb295aabef7d3cbda51ebc60e8f894ccc981f793ee47ba5af297f",
-          "sha256": "4c00bdcdc8c57efc34d416f502b35908bc10fc0ee67250bd3d4b04b65875f5eb",
-          "sha1": "d5ac125fff94ae1d9ef491b5f7c55cae7a7ecc71",
-          "md5": "1e1df888743829559eb6d1c295a6059b"
+          "name": "access-3.5.0.aar",
+          "url": "access-3.5.0.aar",
+          "size": 2960240,
+          "sha512": "80fe694b22e79e52bd238df5762d78aabb873ae61d496a9ca1aed80d1f8d08ac3b98f6dc57ce8368db9c9598431afb07096392f947b3cfc7d6c3be251cbd8dcd",
+          "sha256": "7968ad069e03b2cc35b3dc1f9fcdf30c547084a9bc56cf7e28d124372cfc4d63",
+          "sha1": "dde19ea37132dd9d637925dd4c895df03bdfffcb",
+          "md5": "0e40b139ec067ad003495fdbc6e8c777"
         }
       ]
     }
