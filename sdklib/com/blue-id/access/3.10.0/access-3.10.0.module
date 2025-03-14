@@ -3,7 +3,7 @@
   "component": {
     "group": "com.blue-id",
     "module": "access",
-    "version": "3.9.0",
+    "version": "3.10.0",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -40,13 +40,13 @@
       ],
       "files": [
         {
-          "name": "access-3.9.0.aar",
-          "url": "access-3.9.0.aar",
-          "size": 2954746,
-          "sha512": "10520a29767e068b2363b0ea8aff133ce547b81d73655fce73a1b1ac8deb0aa75a85f3e98f27db6b88b140ed11160b9f517ede157769430dfc88ae9e9172b93e",
-          "sha256": "439913b1f97f0fafaeddcda20ccf3263379f9d95bb0efbb2bff24d977b0f8724",
-          "sha1": "9b72592170eeb4606124e757045d8bc2aec7681f",
-          "md5": "02ab53bc06c39f16ea01513d461cccbc"
+          "name": "access-3.10.0.aar",
+          "url": "access-3.10.0.aar",
+          "size": 2954037,
+          "sha512": "bfa3a063d5bde4c97d2d66f79ac5d24b625447e67ba6663ee93f7ca58270a37e65c748eae52907a7d4a663d5d9cf7a8626a403a833ccec4a7217610f2d0316cf",
+          "sha256": "841927b087f087d1e4c35cb99a6de8f608780ff1cab9a285697c4d1e74cfc561",
+          "sha1": "abd366089026ab397ca954f563df07112a5cb3df",
+          "md5": "23020cdeb18d0db44d6ddbfcbbf9ab72"
         }
       ]
     },
@@ -290,7 +290,7 @@
           "group": "io.sentry",
           "module": "sentry-android",
           "version": {
-            "requires": "7.10.0"
+            "requires": "8.3.0"
           }
         },
         {
@@ -352,13 +352,13 @@
       ],
       "files": [
         {
-          "name": "access-3.9.0.aar",
-          "url": "access-3.9.0.aar",
-          "size": 2954746,
-          "sha512": "10520a29767e068b2363b0ea8aff133ce547b81d73655fce73a1b1ac8deb0aa75a85f3e98f27db6b88b140ed11160b9f517ede157769430dfc88ae9e9172b93e",
-          "sha256": "439913b1f97f0fafaeddcda20ccf3263379f9d95bb0efbb2bff24d977b0f8724",
-          "sha1": "9b72592170eeb4606124e757045d8bc2aec7681f",
-          "md5": "02ab53bc06c39f16ea01513d461cccbc"
+          "name": "access-3.10.0.aar",
+          "url": "access-3.10.0.aar",
+          "size": 2954037,
+          "sha512": "bfa3a063d5bde4c97d2d66f79ac5d24b625447e67ba6663ee93f7ca58270a37e65c748eae52907a7d4a663d5d9cf7a8626a403a833ccec4a7217610f2d0316cf",
+          "sha256": "841927b087f087d1e4c35cb99a6de8f608780ff1cab9a285697c4d1e74cfc561",
+          "sha1": "abd366089026ab397ca954f563df07112a5cb3df",
+          "md5": "23020cdeb18d0db44d6ddbfcbbf9ab72"
         }
       ]
     }
