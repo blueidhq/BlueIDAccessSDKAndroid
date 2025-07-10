@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.blue-id</groupId>
   <artifactId>access</artifactId>
-  <version>9.2.0</version>
+  <version>9.3.0</version>
   <packaging>aar</packaging>
   <name>BlueID Access SDK</name>
   <description>Access SDK to communicate with BlueID Access Devices</description>
@@ -247,7 +247,7 @@
     <dependency>
       <groupId>io.sentry</groupId>
       <artifactId>sentry-android</artifactId>
-      <version>8.3.0</version>
+      <version>8.17.0</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
