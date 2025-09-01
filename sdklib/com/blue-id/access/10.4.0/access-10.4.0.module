@@ -3,7 +3,7 @@
   "component": {
     "group": "com.blue-id",
     "module": "access",
-    "version": "10.3.0",
+    "version": "10.4.0",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -40,13 +40,13 @@
       ],
       "files": [
         {
-          "name": "access-10.3.0.aar",
-          "url": "access-10.3.0.aar",
-          "size": 3222565,
-          "sha512": "853e33bbe457e4e8ff99da78568208eb2d016a04533b403e0430a46807fef257a03b95af2fb37921ffa17a94d8fe2c795ba36ae9b121e8379b084ae9bb15f62d",
-          "sha256": "e8e6b7bb1afd7dcb484f541311e7498513daa2b54c8f1664aecb8d5e5b1ab920",
-          "sha1": "0bfb580a0915dbc5f7bc44446e5f90c4b6eb8935",
-          "md5": "6509c952a42fa87288adf570980b3a88"
+          "name": "access-10.4.0.aar",
+          "url": "access-10.4.0.aar",
+          "size": 3222796,
+          "sha512": "a6dada9796eb7baa5f9cc7044cfe838d7408a540a51052db94a050f73e9983298689ffd6cca7b2ee8d62b834acf35658100b588ab68453181fcdd8e1b4d55c48",
+          "sha256": "46419176c01ddba98e778894ab9f5ca91669462b818798a0fd867dce30389d5d",
+          "sha1": "eaf961db1f62d7b22060e9862e6bfc7955dcc938",
+          "md5": "72fe251ead12606df2777cc2cb3851cb"
         }
       ]
     },
@@ -220,7 +220,7 @@
           "group": "com.google.protobuf",
           "module": "protobuf-java",
           "version": {
-            "requires": "4.31.1"
+            "requires": "4.32.0"
           }
         },
         {
@@ -352,13 +352,13 @@
       ],
       "files": [
         {
-          "name": "access-10.3.0.aar",
-          "url": "access-10.3.0.aar",
-          "size": 3222565,
-          "sha512": "853e33bbe457e4e8ff99da78568208eb2d016a04533b403e0430a46807fef257a03b95af2fb37921ffa17a94d8fe2c795ba36ae9b121e8379b084ae9bb15f62d",
-          "sha256": "e8e6b7bb1afd7dcb484f541311e7498513daa2b54c8f1664aecb8d5e5b1ab920",
-          "sha1": "0bfb580a0915dbc5f7bc44446e5f90c4b6eb8935",
-          "md5": "6509c952a42fa87288adf570980b3a88"
+          "name": "access-10.4.0.aar",
+          "url": "access-10.4.0.aar",
+          "size": 3222796,
+          "sha512": "a6dada9796eb7baa5f9cc7044cfe838d7408a540a51052db94a050f73e9983298689ffd6cca7b2ee8d62b834acf35658100b588ab68453181fcdd8e1b4d55c48",
+          "sha256": "46419176c01ddba98e778894ab9f5ca91669462b818798a0fd867dce30389d5d",
+          "sha1": "eaf961db1f62d7b22060e9862e6bfc7955dcc938",
+          "md5": "72fe251ead12606df2777cc2cb3851cb"
         }
       ]
     }
