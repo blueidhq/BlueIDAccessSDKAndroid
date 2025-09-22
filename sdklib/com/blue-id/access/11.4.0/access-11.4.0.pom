@@ -9,12 +9,12 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.blue-id</groupId>
   <artifactId>access</artifactId>
-  <version>11.3.0</version>
+  <version>11.4.0</version>
   <packaging>aar</packaging>
   <name>BlueID Access SDK</name>
   <description>Access SDK to communicate with BlueID Access Devices</description>
   <url>https://github.com/blueidhq/BlueIDAccessSDKAndroid.git</url>
-  <inceptionYear>2024</inceptionYear>
+  <inceptionYear>2025</inceptionYear>
   <licenses>
     <license>
       <name>Proprietary Software License</name>
@@ -187,13 +187,13 @@
     <dependency>
       <groupId>com.google.protobuf</groupId>
       <artifactId>protobuf-java</artifactId>
-      <version>4.32.0</version>
+      <version>4.32.1</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>com.google.protobuf</groupId>
       <artifactId>protobuf-java-util</artifactId>
-      <version>4.31.1</version>
+      <version>4.32.1</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
