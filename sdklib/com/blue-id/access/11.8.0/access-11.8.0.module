@@ -3,7 +3,7 @@
   "component": {
     "group": "com.blue-id",
     "module": "access",
-    "version": "11.7.0",
+    "version": "11.8.0",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -40,13 +40,13 @@
       ],
       "files": [
         {
-          "name": "access-11.7.0.aar",
-          "url": "access-11.7.0.aar",
-          "size": 3235215,
-          "sha512": "ed1656c801d351ba034798f275ea235626a09d179cbad8afaa08fba3117677a78ad25c015be0d57ae4a9b10bf16cff05be011f825651b7d35b14bb4268a0a05d",
-          "sha256": "8e249909fb1259bdf7cd1519c32816dc874413d379205fa80a5945bec05d316f",
-          "sha1": "2a3a9629ef3ae188042f31558614edced80c4c2b",
-          "md5": "3ee058232a8497e223e897bbecf8d261"
+          "name": "access-11.8.0.aar",
+          "url": "access-11.8.0.aar",
+          "size": 3270546,
+          "sha512": "7f65e480a9101dd1a3ee5094a92cfa55df529a4944dbc01832a42732e90ee173c0b45ccfc5d3bea2afa0c5e0df901889bce20cb40a0af568fd0f579ae9e4b241",
+          "sha256": "2724ee0e5f054d656d5a543898243f8f0115802969f26363ebbcf69f730c2c69",
+          "sha1": "41a59c8cc5d8ea847cb03215d8dc54bcbb616c25",
+          "md5": "2f119d8a75f7335bbcb9450a409e89cd"
         }
       ]
     },
@@ -217,6 +217,13 @@
           }
         },
         {
+          "group": "org.altbeacon",
+          "module": "android-beacon-library",
+          "version": {
+            "requires": "2.21.1"
+          }
+        },
+        {
           "group": "com.google.protobuf",
           "module": "protobuf-java",
           "version": {
@@ -297,21 +304,21 @@
           "group": "androidx.work",
           "module": "work-runtime",
           "version": {
-            "requires": "2.9.1"
+            "requires": "2.10.5"
           }
         },
         {
           "group": "androidx.work",
           "module": "work-runtime-ktx",
           "version": {
-            "requires": "2.9.1"
+            "requires": "2.10.5"
           }
         },
         {
           "group": "com.google.dagger",
           "module": "dagger",
           "version": {
-            "requires": "2.48.1"
+            "requires": "2.57.1"
           }
         },
         {
@@ -352,13 +359,13 @@
       ],
       "files": [
         {
-          "name": "access-11.7.0.aar",
-          "url": "access-11.7.0.aar",
-          "size": 3235215,
-          "sha512": "ed1656c801d351ba034798f275ea235626a09d179cbad8afaa08fba3117677a78ad25c015be0d57ae4a9b10bf16cff05be011f825651b7d35b14bb4268a0a05d",
-          "sha256": "8e249909fb1259bdf7cd1519c32816dc874413d379205fa80a5945bec05d316f",
-          "sha1": "2a3a9629ef3ae188042f31558614edced80c4c2b",
-          "md5": "3ee058232a8497e223e897bbecf8d261"
+          "name": "access-11.8.0.aar",
+          "url": "access-11.8.0.aar",
+          "size": 3270546,
+          "sha512": "7f65e480a9101dd1a3ee5094a92cfa55df529a4944dbc01832a42732e90ee173c0b45ccfc5d3bea2afa0c5e0df901889bce20cb40a0af568fd0f579ae9e4b241",
+          "sha256": "2724ee0e5f054d656d5a543898243f8f0115802969f26363ebbcf69f730c2c69",
+          "sha1": "41a59c8cc5d8ea847cb03215d8dc54bcbb616c25",
+          "md5": "2f119d8a75f7335bbcb9450a409e89cd"
         }
       ]
     }
