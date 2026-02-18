@@ -3,7 +3,7 @@
   "component": {
     "group": "com.blue-id",
     "module": "access",
-    "version": "12.14.0",
+    "version": "12.15.0",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -40,13 +40,13 @@
       ],
       "files": [
         {
-          "name": "access-12.14.0.aar",
-          "url": "access-12.14.0.aar",
-          "size": 3152307,
-          "sha512": "a9ddf21274b4f74afa4befb6e1e8ad287f23235138f82730ecef6589fb36240033989943fc2cc43bba4458506411660f5e937ad199d8bfeff74c3a05e3db0172",
-          "sha256": "f504dc091785495ece92bac79bcc5cbbffd0913562bebe7fcffc3d7ccde66c08",
-          "sha1": "0c78e14faabfc16a295b22f976ec37bec652d4c5",
-          "md5": "861490555a0c493e893657ea6f4967ed"
+          "name": "access-12.15.0.aar",
+          "url": "access-12.15.0.aar",
+          "size": 3152895,
+          "sha512": "d934bbe8b6513726c9c349b8ab67c9649c3127fca7c076a35fdab69f8f2dcfc11cdc11b43f18db377c7dae2e386ef781d4b49d36783b7b17f4b9747bf8ae9593",
+          "sha256": "38bbc2738ad544e57017838c33f1e24a33ad37b29911d16eeb10df4d0e2ed1f4",
+          "sha1": "57e7d916d78001e816589b23b4e460ad34fa95a4",
+          "md5": "d2880fec15084eef4f1107621b27831f"
         }
       ]
     },
@@ -227,21 +227,28 @@
           "group": "com.google.protobuf",
           "module": "protobuf-java",
           "version": {
-            "requires": "4.33.4"
+            "requires": "4.33.5"
           }
         },
         {
           "group": "com.google.protobuf",
           "module": "protobuf-java-util",
           "version": {
-            "requires": "4.33.4"
+            "requires": "4.33.5"
           }
         },
         {
           "group": "com.google.guava",
           "module": "guava",
           "version": {
-            "requires": "33.2.1-android"
+            "requires": "33.5.0-android"
+          }
+        },
+        {
+          "group": "com.google.j2objc",
+          "module": "j2objc-annotations",
+          "version": {
+            "requires": "3.1"
           }
         },
         {
@@ -352,13 +359,13 @@
       ],
       "files": [
         {
-          "name": "access-12.14.0.aar",
-          "url": "access-12.14.0.aar",
-          "size": 3152307,
-          "sha512": "a9ddf21274b4f74afa4befb6e1e8ad287f23235138f82730ecef6589fb36240033989943fc2cc43bba4458506411660f5e937ad199d8bfeff74c3a05e3db0172",
-          "sha256": "f504dc091785495ece92bac79bcc5cbbffd0913562bebe7fcffc3d7ccde66c08",
-          "sha1": "0c78e14faabfc16a295b22f976ec37bec652d4c5",
-          "md5": "861490555a0c493e893657ea6f4967ed"
+          "name": "access-12.15.0.aar",
+          "url": "access-12.15.0.aar",
+          "size": 3152895,
+          "sha512": "d934bbe8b6513726c9c349b8ab67c9649c3127fca7c076a35fdab69f8f2dcfc11cdc11b43f18db377c7dae2e386ef781d4b49d36783b7b17f4b9747bf8ae9593",
+          "sha256": "38bbc2738ad544e57017838c33f1e24a33ad37b29911d16eeb10df4d0e2ed1f4",
+          "sha1": "57e7d916d78001e816589b23b4e460ad34fa95a4",
+          "md5": "d2880fec15084eef4f1107621b27831f"
         }
       ]
     }

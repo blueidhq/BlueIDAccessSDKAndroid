@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.blue-id</groupId>
   <artifactId>access</artifactId>
-  <version>12.14.0</version>
+  <version>12.15.0</version>
   <packaging>aar</packaging>
   <name>BlueID Access SDK</name>
   <description>Access SDK to communicate with BlueID Access Devices</description>
@@ -193,19 +193,25 @@
     <dependency>
       <groupId>com.google.protobuf</groupId>
       <artifactId>protobuf-java</artifactId>
-      <version>4.33.4</version>
+      <version>4.33.5</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>com.google.protobuf</groupId>
       <artifactId>protobuf-java-util</artifactId>
-      <version>4.33.4</version>
+      <version>4.33.5</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
-      <version>33.2.1-android</version>
+      <version>33.5.0-android</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.j2objc</groupId>
+      <artifactId>j2objc-annotations</artifactId>
+      <version>3.1</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
