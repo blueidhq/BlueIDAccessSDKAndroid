@@ -3,7 +3,7 @@
   "component": {
     "group": "com.blue-id",
     "module": "access",
-    "version": "12.40.0",
+    "version": "12.41.0",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -40,13 +40,13 @@
       ],
       "files": [
         {
-          "name": "access-12.40.0.aar",
-          "url": "access-12.40.0.aar",
-          "size": 3371463,
-          "sha512": "fd40bcd820fbbc9b04b361749bbac45fef6a1e3470c607a223fb059f3a36e40b9de643d22324955229b6416bcaae3536342ab7a04e9c139a7ffdf507e8df138d",
-          "sha256": "a3a050900b3d507b26fee6459213b1cb4d068125ac28b321ff56166137bb1161",
-          "sha1": "bca8bcc940aa417a01f63b70ca68ad5b903f3f95",
-          "md5": "bd58943c9cd564bb711af250179855ed"
+          "name": "access-12.41.0.aar",
+          "url": "access-12.41.0.aar",
+          "size": 3371464,
+          "sha512": "c87ad6fb9482cdea26048ac5df46c5cf0f297fcca5245d69bc5debc1d8d93153523b3314f3c8d8ff6a825a6ff7502b8ccd998b582cd13cc5b07a5c91c250c044",
+          "sha256": "2944880e3ce1c214a5efc99630e9a078cc36d73c222a4a5592d66b71912f20d3",
+          "sha1": "7254eb1ac7185ab247fa48b7f3f58b62eb83654a",
+          "md5": "dbe81240d01a138032d70238781ef469"
         }
       ]
     },
@@ -365,13 +365,13 @@
       ],
       "files": [
         {
-          "name": "access-12.40.0.aar",
-          "url": "access-12.40.0.aar",
-          "size": 3371463,
-          "sha512": "fd40bcd820fbbc9b04b361749bbac45fef6a1e3470c607a223fb059f3a36e40b9de643d22324955229b6416bcaae3536342ab7a04e9c139a7ffdf507e8df138d",
-          "sha256": "a3a050900b3d507b26fee6459213b1cb4d068125ac28b321ff56166137bb1161",
-          "sha1": "bca8bcc940aa417a01f63b70ca68ad5b903f3f95",
-          "md5": "bd58943c9cd564bb711af250179855ed"
+          "name": "access-12.41.0.aar",
+          "url": "access-12.41.0.aar",
+          "size": 3371464,
+          "sha512": "c87ad6fb9482cdea26048ac5df46c5cf0f297fcca5245d69bc5debc1d8d93153523b3314f3c8d8ff6a825a6ff7502b8ccd998b582cd13cc5b07a5c91c250c044",
+          "sha256": "2944880e3ce1c214a5efc99630e9a078cc36d73c222a4a5592d66b71912f20d3",
+          "sha1": "7254eb1ac7185ab247fa48b7f3f58b62eb83654a",
+          "md5": "dbe81240d01a138032d70238781ef469"
         }
       ]
     }
