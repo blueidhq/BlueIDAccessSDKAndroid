@@ -3,14 +3,14 @@
   "component": {
     "group": "com.blue-id",
     "module": "access",
-    "version": "12.42.0",
+    "version": "12.43.0",
     "attributes": {
       "org.gradle.status": "release"
     }
   },
   "createdBy": {
     "gradle": {
-      "version": "9.4.1"
+      "version": "9.5.0"
     }
   },
   "variants": [
@@ -40,13 +40,13 @@
       ],
       "files": [
         {
-          "name": "access-12.42.0.aar",
-          "url": "access-12.42.0.aar",
-          "size": 3389161,
-          "sha512": "79ed7f02baf0693e5cc8cdd5b81612f9dd4fa4b74ad805de37d09458f902b8aee8100da6b6f0f28643ef8a4e6ec863404564063b57257877c01b61813165528e",
-          "sha256": "b607755ec23d45c8471c9dc35085234e9b92893d924a18e7a64fb7ba1f2f4d10",
-          "sha1": "c8efcef52592de61ecf05898dcdd3320a0f6125d",
-          "md5": "d5abd6d4b48a7074daaf0d09d4b8e99a"
+          "name": "access-12.43.0.aar",
+          "url": "access-12.43.0.aar",
+          "size": 3423248,
+          "sha512": "46f8c30fb4f7f7533b15fa162bc7115242e60d2f4cc23b444be90b87a030d68ae4ae41d1c1781718e99eefda37a2e9576bbcf84d1370a5aa430d0dff006a4415",
+          "sha256": "c438154e66c78144c317698594ed290a86fac43c61893584fd213304b1452ef5",
+          "sha1": "0ecda087abf323334f307aaddd8156dbb9e00e8b",
+          "md5": "2a55d6fc6cdaf3a23063556732fb5bc0"
         }
       ]
     },
@@ -220,7 +220,7 @@
           "group": "org.altbeacon",
           "module": "android-beacon-library",
           "version": {
-            "requires": "2.21.1"
+            "requires": "2.21.2"
           }
         },
         {
@@ -365,13 +365,13 @@
       ],
       "files": [
         {
-          "name": "access-12.42.0.aar",
-          "url": "access-12.42.0.aar",
-          "size": 3389161,
-          "sha512": "79ed7f02baf0693e5cc8cdd5b81612f9dd4fa4b74ad805de37d09458f902b8aee8100da6b6f0f28643ef8a4e6ec863404564063b57257877c01b61813165528e",
-          "sha256": "b607755ec23d45c8471c9dc35085234e9b92893d924a18e7a64fb7ba1f2f4d10",
-          "sha1": "c8efcef52592de61ecf05898dcdd3320a0f6125d",
-          "md5": "d5abd6d4b48a7074daaf0d09d4b8e99a"
+          "name": "access-12.43.0.aar",
+          "url": "access-12.43.0.aar",
+          "size": 3423248,
+          "sha512": "46f8c30fb4f7f7533b15fa162bc7115242e60d2f4cc23b444be90b87a030d68ae4ae41d1c1781718e99eefda37a2e9576bbcf84d1370a5aa430d0dff006a4415",
+          "sha256": "c438154e66c78144c317698594ed290a86fac43c61893584fd213304b1452ef5",
+          "sha1": "0ecda087abf323334f307aaddd8156dbb9e00e8b",
+          "md5": "2a55d6fc6cdaf3a23063556732fb5bc0"
         }
       ]
     }
